@@ -7,7 +7,7 @@ footer {
 
 footer .social {
   margin: 0;
-  width: 80% !important;
+  /* width: 80% !important; */
   padding: 0px !important;
   height: 100% !important;
 }
@@ -19,4 +19,16 @@ footer .social {
   .social a {
     font-size: 2rem;
   }
+}
+
+.footerLogo {
+  width: 60px;
+  border-radius: 200px;
+}
+footer .social i {
+  transition: 0.5s;
+}
+.footerLogo:hover {
+  scale: 1.1;
+  transition: 0.5s;
 }
