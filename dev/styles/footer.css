@@ -19,10 +19,17 @@ footer .social {
   .social a {
     font-size: 2rem;
   }
+  
+}
+
+@media screen and (max-width:768px){
+  .footerLogo{
+    width: 70px;
+  }
 }
 
 .footerLogo {
-  width: 60px;
+  width: 100px;
   border-radius: 200px;
 }
 footer .social i {
